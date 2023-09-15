@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 24px auto;
+  max-width: 640px;
+}
+
+#model {
+  height: 512px;
+  position: relative;
+  width: 256px;
+}
+#model #pantsImg,
+#model #shirtImg,
+#model #shoesImg {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+#model #pantsImg {
+  left: 81px;
+  top: 233px;
+}
+#model #shirtImg {
+  left: 67px;
+  top: 95px;
+}
+#model #shoesImg {
+  left: 84px;
+  top: 450px;
+}
+
+#sliderPicker {
+  border: solid 2px #999;
+  border-radius: 8px;
+  font: normal 14px/1.2 sans-serif;
+  height: auto;
+  max-height: 600px;
+  padding: 24px;
+  display: flex; /* Use flex to arrange children vertically */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: flex-start; /* Align children to the start of each column */
+
+  p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2;
+    margin: 0; /* Remove margin to keep text closer to color pickers */
+  }
+
+  ul[id="colorTarget"] {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul[id="colorTarget"] li {
+    margin-right: 1em;
+  }
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 24px auto;
+  max-width: 640px;
+}
+
+#model {
+  height: 512px;
+  position: relative;
+  width: 256px;
+
+  #pantsImg,
+  #shirtImg,
+  #shoesImg {
+      left: 0;
+      position: absolute;
+      top: 0;
+  }
+
+  #pantsImg {
+      left: 81px;
+      top: 233px;
+  }
+
+  #shirtImg {
+      left: 67px;
+      top: 95px;
+  }
+
+  #shoesImg {
+      left: 84px;
+      top: 450px;
+  }
+
+}
+
